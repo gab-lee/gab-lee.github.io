@@ -1,4 +1,9 @@
 
+body{
+    background-color: beige;
+}
+
+
 .navbar{
     display: flex;
     justify-content:flex-end;
