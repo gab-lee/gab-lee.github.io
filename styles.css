@@ -1,0 +1,13 @@
+
+.navbar{
+    display: flex;
+    justify-content:flex-end;
+}
+
+a{
+    padding: 0 10px 0 0;
+}
+
+.hero-section{
+    background-color: ghostwhite;
+}
