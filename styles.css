@@ -1,6 +1,7 @@
 
 body{
-    background-color: beige;
+    background-color: white;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 
@@ -13,6 +14,44 @@ a{
     padding: 0 10px 0 0;
 }
 
-.hero-section{
-    background-color: ghostwhite;
+.flex-container{
+    display: flex;
+
 }
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    width: 100%;
+  }
+  
+  .social-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .social-links a {
+    margin-right: 10px; /* Adjust the spacing between social links */
+    color: #000; /* Set the color of the social links */
+  }
+  
