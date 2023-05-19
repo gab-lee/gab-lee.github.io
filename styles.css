@@ -1,17 +1,7 @@
 
-body{
-    background-color: white;
-    font-family: Helvetica, Arial, sans-serif;
-}
-
-
-.navbar{
-    display: flex;
-    justify-content:flex-end;
-}
-
-a{
-    padding: 0 10px 0 0;
+body {
+    background-color: #F8F8F8;
+    font-family: "Open sans", Helvetica, Arial, sans-serif;
 }
 
 .flex-container{
@@ -54,4 +44,5 @@ a{
     margin-right: 10px; /* Adjust the spacing between social links */
     color: #000; /* Set the color of the social links */
   }
+  
   
